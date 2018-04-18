@@ -1,5 +1,9 @@
 # GMailinator
 
+Forked from jgavris/GMailinator to restore the function of "v" key to take over the function of "l" for moving messages.
+
+You need to compile from source.
+
 Adds Gmail-esque keyboard shorcuts to Mail.app.  This is still very much a work
 in progress.  Tested with Mail for OS X Sierra.
 
@@ -18,14 +22,14 @@ in progress.  Tested with Mail for OS X Sierra.
 |   g    |  Go to the first message       |
 |   j    |  Go to next message/thread     |
 |   k    |  Go to previous message/thread |
-|   l    |  Move to folder (opens dialog) |
+|  * l    |  Removed. Move to folder (opens dialog) |
 |   o    |  Open selected message         |
 |   R    |  Get new mail (Refresh)        |
 |   r    |  Reply                         |
 |   s    |  Flag                          |
 |   u    |  Mark message as read          |
 |   U    |  Mark message as unread        |
-|   v    |  View raw message dialog       |
+|   v    |  Move to folder (opens diaglog)       |
 |   z    |  Undo                          |
 
 ## How to install

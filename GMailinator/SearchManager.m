@@ -104,7 +104,7 @@
     // create "Move to Folder..." menu item just below the existing "Move Again" menuitem
     NSMenuItem* moveFolderItem =  [self newMenuItemWithTitle: @"Move to Folder..."
                                                       action: @selector(moveToFolder:)
-                                            andKeyEquivalent: @"l"
+                                            andKeyEquivalent: @"v"
                                                       inMenu: [[NSApplication sharedApplication] mainMenu]
                                                    withTitle: @"Move Again"
                                                       offset: 1];
